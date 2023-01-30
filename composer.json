@@ -1,0 +1,23 @@
+{
+  "name": "cjz/userfullfunction",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "xzkj",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5"
+  },
+  "autoload": {
+    "files": [
+      "src/helpers.php"
+    ],
+    "psr-4": {
+      "cjzhelper\\": "src"
+    }
+  }
+}
