@@ -1,0 +1,13 @@
+/bootstrap/cache/services.json
+/storage/logs/*.log
+/storage/framework/views/*.php
+.idea
+public/resource/uploads/
+public/dist/*
+/public/apph5/js/gulp/node_modules
+public/resource/question/
+public/schooldist/*
+/app/Console/Commands/Local/
+node_modules
+/public/resource/baseconfig.json
+/storage/uploads/
