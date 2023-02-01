@@ -5,7 +5,7 @@ if (! function_exists('getArrAllSubset')) {
         $arr = array_unique($arr);
         $res = [[]];
         foreach ($arr as $v){
-            //遍历过的元素 组成的子集 和当前元素组合
+            //遍历过的元素 组成的子集 和当前元素组合 
             $tmpRes =  array_map(function ($subset) use ($v){
                 return array_merge($subset,[$v]) ;
             },$res);
